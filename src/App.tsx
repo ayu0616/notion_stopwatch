@@ -4,7 +4,7 @@ function App() {
     return (
         <>
             <div className="card">
-                <p>{top?.location.href || "top is null"}</p>
+                {/* <p>{top?.location.href || "top is null"}</p> */}
                 <p>{document.referrer || "referrer is null"}</p>
             </div>
         </>
